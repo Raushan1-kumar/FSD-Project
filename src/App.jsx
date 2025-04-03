@@ -9,6 +9,7 @@ import Faq from './Components/Faq';
 import FormHandling from './Components/FormHandling';
 import ApiContectivity from './Components/ApiContectivity';
 import LCMethod from './Components/LCMethod';
+import UseZustand from './Components/UseZustand';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
        <Route path="/form" element={<FormHandling/>}></Route>
        <Route path="/api" element={<ApiContectivity/>}></Route>
        <Route path='/lcmethod' element={<LCMethod a={3} favColor={"black"}/>}></Route>
+       <Route path="/zustand" element={<UseZustand/>}></Route>
      </Routes>
      <Footer/>
     </BrowserRouter>

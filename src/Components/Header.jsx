@@ -18,6 +18,7 @@ function Header(props) {
         
         <Link to={"/lcmethod"}>LCMethod</Link>
         <Link to={"/form"}>Form</Link>
+        <Link to={"/zustand"}>Use zustand</Link>
 
     </>
   );
